@@ -1,0 +1,71 @@
+*{    font-family: "Roboto Slab", serif; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    margin: 44px 0 144px 76px;
+}
+.link-header{   
+    font-size: 25px;
+    font-weight: 500;
+    margin-right: 23px;
+    line-height: 50px;
+    color: #7a7777;
+    cursor: pointer;
+
+}
+.button-header{
+    background-color: rgb(32, 97, 141);
+    border-radius: 30px;
+    width: 130px;
+    height: 41px;
+    border: none;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 500;  
+    color:beige
+}
+img{
+    Width:567px;
+    Height:499px;
+    margin-left: 150px;
+    display: inline-block;
+}
+
+section{
+    display: inline-block; 
+    margin-left: 100px;
+}
+h1{
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 120px;
+    color: #515151;
+}
+h2{
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 71px;
+    color: #5106b4d2; 
+}
+p{
+    font-size: 23px;
+    font-weight: 500px; 
+    width: 600px;
+    margin-top: 32px;
+    margin-bottom: 40px;
+}
+.button-main{
+    height: 60px;
+    width: 220px;
+    font-size: 32px;
+    font-weight: 500px;
+    border: none;
+    cursor: pointer;
+    line-height: 34px;
+    border-radius: 30px;
+    background-color: rgb(4, 163, 163);
+    color: aliceblue;
+    filter: drop-shadow(0px 4px 4px rgb(106, 109, 108));
+}   

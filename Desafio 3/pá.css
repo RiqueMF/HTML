@@ -1,0 +1,144 @@
+*{  font-family: "Poppins", serif; 
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.wpapper{
+    height: 100vh;
+    width: 100vw;
+}
+.container-top{
+display: inline-block;
+height: 20%;
+width: 100%
+}
+.container-down{
+display: inline-block;
+ width: 100%;
+ height: 80vh;
+ position: relative;
+
+}
+
+img{
+    width: 700px;
+    margin-left: 100px;
+}
+aside{
+    display: inline-block; 
+    margin-left: 200px;
+}
+div{
+    display: inline-block;
+
+}
+
+h1{
+    width: 582px;
+    height: 200px;
+    font-size: 62px;
+    line-height:82px;
+}
+p{
+    font-size: 21px;
+    width: 493px;
+    color: #4B505A;
+}
+.button-down {
+    width: 164px;
+    height: 27px;
+    top: 707px;
+    left: 801px;
+    color:#6FBF44;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 106px;    
+    border: none;
+    cursor: pointer;
+
+}
+.link-header{
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 100px;
+    margin-left: 38px;
+    cursor: pointer;
+
+}
+.button-top{
+    color: white;
+    width: 158px;
+    height: 60px;
+    background: #06a306;
+    border-radius: 30px;
+    margin: 28px;
+    font-weight: 500;
+    font-size: 22px;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    opacity: .8;
+}
+button:active{
+    opacity: .5;
+}
+
+@media screen and (max-width: 900px) {
+    .wpapper{
+        width: auto;
+        height: auto;
+        padding: 0;
+        margin:0;
+        position: static;
+    }
+    aside{
+        display: block;
+        width: 100%;
+        height: 60%;
+        padding: 0;
+        margin:0;
+        margin-top: -200%;
+    }
+    .container-top{
+        height: 20%;
+        width: 100%;
+    }
+    .container-down{
+        display: block;
+        height: auto;
+        width: 100%;
+        position: relative;
+        top: 84px;
+
+    }
+    
+    div{
+        display:none
+    } 
+    .button-top{
+        margin-left: 400px;
+
+    }
+    .button-down{
+        margin-left: 55%;
+    }
+    h1 {
+        margin-left: 0%;
+        text-align: center;
+
+    }
+    p{
+        margin-left: 10%;
+        text-align: center;
+
+    }
+   
+    img{
+        margin-top: 124%;
+        width: 100%;
+        height: 40%;
+        position: relative;
+        top: 40px;
+    }
+ }
